@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIGWOLF FORM</title>
+
+</head>
+<body>
+    <form action="" method="post" enctype="">
+
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" placeholder="Ovye Gideon Ashlame" maxlength="10" minlength="3" required>  <br />
+
+        <label for="Other Names">Matric NO:</label>
+        <input type="text" id="Other Names" placeholder="24/1234" minlength="6" maxlength="14" required> <br />
+
+        <label for="phone number">Phone:</label>
+        <input type="tel" id="phone number" placeholder="0707-031-8583" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}">  <br />
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" minlength="6" maxlength="14"> <br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="@gmail.com" required> <br>
+
+        <label for="review">Write a review about the course: </label> <br>
+        <textarea cols="50" rows="10" id="">I love</textarea> <br>
+
+        Where do you love being the most? <br>
+        <input type="radio" name="i" id="in class"> In Class <br>
+        <input type="radio" name="i" id="in hostel"> In Hostel <br>
+        <input type="radio" name="i" id="in church"> In Church <br>
+        <input type="radio" name="i"  id="in cafeteria"> In Cafeteria
+        <br>
+
+        What Course lecturer give you vibes the most?<br>
+        <select name="courses" id="">
+            <option value="Mathematics">Mathematics</option>
+            <option value="Cos">Cos</option>
+            <option value="Use of Library ">Use of library </option>
+            <option value="Statistics">Statistics</option>
+            <option value="English GST">English GST</option>
+            <option value="Physics">Physics</option>
+            <option value="Cos 107">Cos 107</option>
+            <option value=""></option>
+
+        </select> <br>
+        Upload your assignments here <br>
+        <input type="file"> <br>
+
+        <input type="checkbox" required> Tick if you're ready to submit<br>
+
+
+        <input type="submit" value="submit">
+        <input type="reset" value="reset"> <br>
+    </form>
+    
+    <a href="javascript:history.back()"> go back</a>←
+</body>
+</html>
